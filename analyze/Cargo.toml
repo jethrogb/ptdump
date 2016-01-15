@@ -1,0 +1,11 @@
+[package]
+name = "ptanalyze"
+description = "Analyzer for page table dumps"
+version = "0.1.0"
+authors = ["Jethro Beekman <jethro@jbeekman.nl>"]
+license = "GPL-2.0+"
+repository = "https://github.com/jethrogb/sgx-utils/tree/master/sgxs"
+
+[dependencies]
+"byteorder" = "0.4"
+"bitflags" = "0.4"
